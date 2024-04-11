@@ -1,0 +1,36 @@
+body{
+    height:100vh;
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.e{
+    background-color: black;
+    border: 5px solid black;
+    width: 300x;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    font-family: Impact;
+
+    
+}
+.e > div{
+    color: rgb(0, 0, 0);
+    background-color:aqua ;
+    height:60px ;
+    width:80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    background-color: azure;
+    
+}

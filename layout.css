@@ -1,0 +1,32 @@
+body{
+    background-color: darkkhaki;
+    margin: 0;
+    height: 100vh
+}
+.container{
+    display: flex;
+    height: calc(100% - 180px); 
+}
+main{
+    background-color: indianred;
+    width:calc(100% - 200px);  
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+aside{
+    background-color: green;
+    width: 200px;
+}
+header{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header > img{
+    height: 50px;
+}

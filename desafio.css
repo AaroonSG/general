@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(1, 7, 12) ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-family: comic sans ms;
+    font-size: 30px;
+    
+}
+.l{
+    border: 5px dashed forestgreen;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 25px;
+    div{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        background-color: beige;
+        color: black;
+        width:40px;
+        height:40px;
+        border-radius: 25px;
+    }
+}
+.l > div:hover{
+    background-color: beige;
+    padding: 10px;
+    transition: 0.464532446s;
+    cursor: pointer;
+    border: solid transparent;
+
+}

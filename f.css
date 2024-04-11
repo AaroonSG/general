@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-family:sans-serif;
+}
+p{
+    color: white;
+    font-family: sans-serif;
+}
+img{
+    border: 7px outset blueviolet ;
+    border-radius: 8px;
+}
+.pcm{
+    border: 1px outset white;
+    height: 100px;
+    color: bisque;
+    background-color: bisque;
+    background: rgb(106,140,111);
+    background: linear-gradient(90deg, rgba(106,140,111,1) 0%, rgba(114,114,145,1) 50%, rgba(0,212,255,1) 100%);;
+}
+.paocommanteiga{
+    border: 10px solid rgba(255, 255, 255, 0) ;
+    background-color: blueviolet;
+    color:blue;
+    height:75px ;
+    width: 200px;
+    margin: 70px;
+    padding: 100px;
+    transition: 0.6728354756268463267724632783457s;
+}
+.paocommanteiga:hover{
+    background-color: aqua;
+    border: 10px solid white ;
+}
+.j{
+    background-color: aquamarine;
+    color:crimson;
+    padding: 10px;
+    transition: 0.464532446s;
+    cursor: pointer;
+    border: solid transparent;
+    
+}
+.j:hover{
+    padding: 100px 10px;
+    border: yellowgreen;
+}
